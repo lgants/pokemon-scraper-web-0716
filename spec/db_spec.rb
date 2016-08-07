@@ -1,3 +1,4 @@
+
 describe "schema_migration.sql" do
   before do
     @db = SQLite3::Database.new(':memory:')
